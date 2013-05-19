@@ -1,0 +1,20 @@
+{
+    "logs": [
+    {
+        "id": 1,
+        "host": "210.116.59.164",
+        "date": "2013-02-05T:04:09:00",
+        "request": "POST /user HTTP/1.1",
+        "status": 404,
+        "size": 1063
+    },
+    {
+        "id": 2,
+        "host": "211.141.115.145",
+        "date": "2013-04-05T:12:15:20",
+        "request": "GET /user HTTP/1.1",
+        "status": 200,
+        "size": 2898,
+        "useragent": "Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"
+    }
+]}
