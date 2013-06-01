@@ -181,10 +181,12 @@ header .search_clear {
     left: 0;
     right: 0;
     background: rgba(127, 50, 111, 0.1);
+    min-height: 150px;
+    text-align: center;
 }
 
 #detail h1 {
-    text-align: center;
+    margin-top: 40px;
 }
 
 #detail .label {
@@ -201,4 +203,9 @@ header .search_clear {
     white-space: nowrap;
     vertical-align: baseline;
     background-color: #999;
+}
+
+#detail .empty {
+    margin-top: 62px;
+    color: #999;   
 }
