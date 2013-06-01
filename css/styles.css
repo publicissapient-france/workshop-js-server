@@ -138,29 +138,42 @@ header .search_clear {
     position: relative;
 }
 
-#content table tr.selected td:nth-child(1):before {
+#content table tr.selected td:nth-child(1):before, #content table tr.selected td:nth-child(1):after {
     content: "";
     position: absolute;
     top: 9px;
-    right: -416px;
     width: 0; 
     height: 0; 
     display: block;
 
     width: 0; 
     height: 0; 
+}
+
+#content table tr.selected td:nth-child(1):before {
+    right: -416px;
+
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-right: 10px solid rgba(127, 50, 111, 0.1);
 }
 
-#content table tr.selected:nth-child(even) td:nth-child(1):before {
-    width: 0; 
-    height: 0; 
+#content table tr.selected td:nth-child(1):after {
+    right: 214px;
+
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
+    border-left: 10px solid rgba(127, 50, 111, 0.1);
+}
+
+#content table tr.selected:nth-child(even) td:nth-child(1):before {
     border-right: 10px solid white;
 }
+
+#content table tr.selected:nth-child(even) td:nth-child(1):after {
+    border-left: 10px solid white;
+}
+
 
 #content table td {
     color: #7f326f;
