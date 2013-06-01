@@ -134,7 +134,8 @@ header .search_clear {
     background: rgba(127, 50, 111, 0.1);
 }
 
-.selected td:nth-child(1) {
+#content table tr td:nth-child(1) {
+    display:inline-block; /* ff hack */
     position: relative;
 }
 
