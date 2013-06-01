@@ -4,7 +4,6 @@
 	<title>Mois du JS</title>
 	<link rel="icon" type="image/png" href="css/favicon.png">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	<script data-main="js/app" src="js/require-2.1.5.js"></script>
 </head>
 <body>
 	<header>
@@ -55,15 +54,27 @@
 					<td>12 B</td>
 					<td>10:27</td>
 				</tr>
-				<tr>
+				<tr class="selected">
 					<td>http://www.google.fr</td>
 					<td>GET</td>
 					<td>200</td>
 					<td>715 B</td>
 					<td>10:42</td>
 				</tr>
+				<tr>
+					<td>http://www.dude.fr</td>
+					<td>POST</td>
+					<td>401</td>
+					<td>12 B</td>
+					<td>10:27</td>
+				</tr>
 			</tbody>
 		</table>
+	</div>
+	<div id="detail">
+		<h1>Google<h1>
+		<div class="label">GET</div>
+		<div class="label">200</div>
 	</div>
 </body>
 </html>
